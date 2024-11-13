@@ -1,58 +1,81 @@
-# Python Hello World 🐍🌎
+# Hello world with Perl 🌎
 
-This project creates a simple Python program that prints "Hello World" to the screen, demonstrating the setup and successful execution of Python code.
+This project creates a simple Perl program that prints 'Hello World' to the screen, demonstrating the setup and successful execution of Perl code.
 
-## Getting Started
+### Built With
+
+This project build with:
+ * Perl
+ * Dockerfile
+
+## Getting Started with Github: 
 * Clone the repository
 
-```sh
-git clone https://github.com/Karina1014/Python-hello-world.git
-```
+    ```
+    git clone https://github.com/Karina1014/Perl-hello-world-.git
+    ```
 
 
-## Prerequisites
+##Pre-requisites
+Make sure Perl is installed on your PC.
+You can download it from this link:
 
-Make sure you have Python 3.10 or above installed. You can check your Python version by running the following command in your terminal:
+ https://strawberryperl.com/
 
-```sh
-python --version
-```
+* Open the app.pl file and run the following command:
 
+    ```
+     perl app.pl
+    ```
 
-## How to run in docker
-### Pre-requisites
+## How to run with Dokcker
+You will need:
+
 * Docker - DockerDesktop installed
 * DockerHub account
 
-
-### Image in DockerHub
-
-![image](https://github.com/user-attachments/assets/a9256439-cf2a-4b9a-8feb-8e6ce60c1987)
-
-
 ### Download image
 ```
-docker pull karina1014/hello-word-python:v1.0
+    docker pull karina1014/hello-world-perl-project:v1.0
 ```
 
 ### View the results
-You can open de VSC and run this :
+You can open de CMD and run this :
 ```
-    docker run -it karina1014/hello-word-python:v1.0
+    docker run -it karina1014/hello-world-perl-project:v1.0
 ```
-Use this command to confirm that the image is available in your Docker environment.
+With this command you will verify that you have the image in your docker.
 
-![image](https://github.com/user-attachments/assets/7c2d23ed-0a01-4d6a-b69a-296014283eba)
+You see the print in your browser: 
 
-## Deploy with Railway
+
+```
+  localhost:8001 
+```
+
+## Image in DockerHub
+
+You need account in Docker Hub and update your perl Image.
+
+
+![image](https://github.com/user-attachments/assets/2174cd32-d3ba-426d-9a38-16ec25a34545)
+
+
+## How Deploy with Render:
 
 You need to link your Github account.
 
-![image](https://github.com/user-attachments/assets/c5d4deab-8396-405d-928a-33b649151643)
 
-For the project, the practice is done to view the hello world on the console, in this case seeing through the Railway logs.
+## View the results in Render:
+You need to log in to railroad with your preferred github.
 
-## Results
-Result:
+Next: You need select the web service and deploy your project.
 
-View the Hello World 
+
+You see the app in this link:
+
+[https://perl-app-hw.onrender.com/](https://perl-hello-world.onrender.com)
+
+## Results:
+
+![image](https://github.com/user-attachments/assets/b73eca87-8525-44ba-a4bc-72c6326bb5b6)
